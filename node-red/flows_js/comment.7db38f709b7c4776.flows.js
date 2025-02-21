@@ -6,7 +6,7 @@ const Node = {
   "name": "Kontroller om rekvirent er leder eller stedfortræder",
   "info": "",
   "x": 300,
-  "y": 1220,
+  "y": 1240,
   "wires": []
 }
 

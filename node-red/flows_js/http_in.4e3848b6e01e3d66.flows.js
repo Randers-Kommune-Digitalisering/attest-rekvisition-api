@@ -4,18 +4,15 @@ const Node = {
   "z": "c715449c21b1a61f",
   "g": "0477132fb9f28020",
   "name": "",
-  "url": "/post/xflow",
+  "url": "/rekvirer",
   "method": "post",
   "upload": false,
   "swaggerDoc": "",
-  "x": 160,
+  "x": 150,
   "y": 120,
   "wires": [
     [
-      "7b260d32a1f60814",
-      "6a1f71dd644f3775",
-      "742ea70ee1b2619f",
-      "33fb8430fb35f823"
+      "0cdf9b5f553b73a7"
     ]
   ]
 }

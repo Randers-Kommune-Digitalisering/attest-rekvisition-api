@@ -5,6 +5,7 @@ const Node = {
   "name": "Set msg.rekvisitus",
   "func": "",
   "outputs": 1,
+  "timeout": "",
   "noerr": 0,
   "initialize": "",
   "finalize": "",
@@ -31,17 +32,17 @@ Node.func = async function (node, msg, RED, context, flow, global, env, util) {
                   let e_id =  msg.payload["soapenv:Envelope"]["soapenv:Body"][0]["sd:GetPerson"][0]["sd:Person"][0]["sd:Employment"][0]["sd:EmploymentIdentifier"][0];
           
                   msg.rekvisitus = {
-                      "cpr": msg.rekvisitus ?? "Fejl! Ingen CPR",
-                      "navn": name ?? "en person",
-                      "tjenestenr": e_id ?? "Ingen tjenestenr"
+                      "cpr": msg.rekvisitus ?? null,
+                      "navn": name ?? null,
+                      "tjenestenr": e_id ?? null
                   }
           
               }
               else
               {
                   msg.rekvisitus = {
-                      "cpr": msg.rekvisitus ?? "Fejl! Ingen CPR",
-                      "navn": "en person"
+                      "cpr": msg.rekvisitus ?? null,
+                      "navn": null
                   }
           
                   msg.error = msg.payload["soapenv:Envelope"]["soapenv:Body"][0]["soapenv:Fault"][0].detail;

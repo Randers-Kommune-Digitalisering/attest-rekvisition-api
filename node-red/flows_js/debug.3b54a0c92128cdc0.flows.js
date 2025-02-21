@@ -2,7 +2,8 @@ const Node = {
   "id": "3b54a0c92128cdc0",
   "type": "debug",
   "z": "c715449c21b1a61f",
-  "name": "Ny bestilling",
+  "g": "f111898069b32afc",
+  "name": "Rekvisitionsanmodning modtaget",
   "active": true,
   "tosidebar": true,
   "console": false,
@@ -11,8 +12,8 @@ const Node = {
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 690,
-  "y": 380,
+  "x": 740,
+  "y": 400,
   "wires": []
 }
 
