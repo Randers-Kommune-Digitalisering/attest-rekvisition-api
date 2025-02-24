@@ -10,6 +10,13 @@ const Node = {
       "pt": "msg",
       "to": "{\t    \"from\": mail.from,\t    \"to\": mail.to,\t    \"title\": mail.title,\t    \"body\": mail.body,\t    \"attachments\": mail.attachments\t}",
       "tot": "jsonata"
+    },
+    {
+      "t": "set",
+      "p": "url",
+      "pt": "msg",
+      "to": "MAIL_SERVICE_URL",
+      "tot": "env"
     }
   ],
   "action": "",
