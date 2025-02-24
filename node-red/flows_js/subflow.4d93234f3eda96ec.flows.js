@@ -1,0 +1,24 @@
+const Node = {
+  "id": "4d93234f3eda96ec",
+  "type": "subflow",
+  "name": "Send mail",
+  "info": "",
+  "category": "",
+  "in": [
+    {
+      "x": 60,
+      "y": 80,
+      "wires": [
+        {
+          "id": "3c6dac970a854d76"
+        }
+      ]
+    }
+  ],
+  "out": [],
+  "env": [],
+  "meta": {},
+  "color": "#DDAA99"
+}
+
+module.exports = Node;

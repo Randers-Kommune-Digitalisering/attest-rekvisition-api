@@ -32,7 +32,7 @@ Node.func = async function (node, msg, RED, context, flow, global, env, util) {
                   let e_id =  msg.payload["soapenv:Envelope"]["soapenv:Body"][0]["sd:GetPerson"][0]["sd:Person"][0]["sd:Employment"][0]["sd:EmploymentIdentifier"][0];
           
                   msg.rekvisitus = {
-                      "cpr": msg.rekvisitus ?? null,
+                      "cpr": msg.rekvisitus.cpr ?? null,
                       "navn": name ?? null,
                       "tjenestenr": e_id ?? null
                   }
@@ -41,7 +41,7 @@ Node.func = async function (node, msg, RED, context, flow, global, env, util) {
               else
               {
                   msg.rekvisitus = {
-                      "cpr": msg.rekvisitus ?? null,
+                      "cpr": msg.rekvisitus.cpr ?? null,
                       "navn": null
                   }
           

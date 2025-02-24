@@ -6,7 +6,7 @@ const Node = {
   "name": "Hent Azure token",
   "info": "",
   "x": 200,
-  "y": 580,
+  "y": 600,
   "wires": []
 }
 

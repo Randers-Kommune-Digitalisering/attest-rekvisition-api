@@ -3,7 +3,7 @@ const Node = {
   "type": "debug",
   "z": "c715449c21b1a61f",
   "g": "f111898069b32afc",
-  "name": "Rekvisitionsanmodning modtaget",
+  "name": "stdout (new data)",
   "active": true,
   "tosidebar": true,
   "console": false,
@@ -12,8 +12,8 @@ const Node = {
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 740,
-  "y": 400,
+  "x": 430,
+  "y": 440,
   "wires": []
 }
 

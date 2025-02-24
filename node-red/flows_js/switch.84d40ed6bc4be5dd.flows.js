@@ -3,11 +3,11 @@ const Node = {
   "type": "switch",
   "z": "d35ec07551c9897c",
   "name": "",
-  "property": "rekvisitus",
+  "property": "rekvisitus.cpr",
   "propertyType": "msg",
   "rules": [
     {
-      "t": "nempty"
+      "t": "nnull"
     },
     {
       "t": "else"

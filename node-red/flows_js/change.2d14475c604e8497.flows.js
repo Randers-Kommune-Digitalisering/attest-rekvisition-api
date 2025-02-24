@@ -3,21 +3,42 @@ const Node = {
   "type": "change",
   "z": "c715449c21b1a61f",
   "g": "826ac4afb5a7dcfc",
-  "name": "Klargør afvisning",
+  "name": "Byg mail",
   "rules": [
-    {
-      "t": "set",
-      "p": "rekvirent",
-      "pt": "msg",
-      "to": "bestilling.rekvirentEmail",
-      "tot": "msg"
-    },
     {
       "t": "set",
       "p": "rekvirentDQ",
       "pt": "msg",
       "to": "bestilling.rekvirentDQ",
       "tot": "msg"
+    },
+    {
+      "t": "set",
+      "p": "mail",
+      "pt": "msg",
+      "to": "{}",
+      "tot": "jsonata"
+    },
+    {
+      "t": "set",
+      "p": "mail.title",
+      "pt": "msg",
+      "to": "Din bestilling af en attest er blevet afvist",
+      "tot": "str"
+    },
+    {
+      "t": "set",
+      "p": "mail.to",
+      "pt": "msg",
+      "to": "bestilling.rekvirentEmail",
+      "tot": "msg"
+    },
+    {
+      "t": "set",
+      "p": "mail.from",
+      "pt": "msg",
+      "to": "MAIL_THIS",
+      "tot": "env"
     }
   ],
   "action": "",
@@ -25,10 +46,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 550,
-  "y": 1420,
+  "x": 520,
+  "y": 1460,
   "wires": [
-    []
+    [
+      "19c5479f155d0443"
+    ]
   ]
 }
 

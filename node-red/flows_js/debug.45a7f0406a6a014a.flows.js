@@ -3,7 +3,7 @@ const Node = {
   "type": "debug",
   "z": "c715449c21b1a61f",
   "g": "d8880c2ab63ce3cd",
-  "name": "stdout",
+  "name": "stdout (db)",
   "active": true,
   "tosidebar": true,
   "console": false,
@@ -13,7 +13,7 @@ const Node = {
   "statusVal": "",
   "statusType": "auto",
   "x": 790,
-  "y": 1740,
+  "y": 1780,
   "wires": []
 }
 

@@ -10,7 +10,7 @@ const Node = {
       "p": "rekvisitus",
       "pt": "msg",
       "to": "bestilling.rekvisitus",
-      "tot": "jsonata"
+      "tot": "msg"
     }
   ],
   "action": "",
@@ -19,7 +19,7 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 210,
-  "y": 1040,
+  "y": 1060,
   "wires": [
     [
       "2569883ec4d671f1"

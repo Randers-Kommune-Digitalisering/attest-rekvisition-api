@@ -13,9 +13,9 @@ const Node = {
     },
     {
       "t": "set",
-      "p": "rekvisitus",
+      "p": "rekvisitus.cpr",
       "pt": "msg",
-      "to": "rekvisitus ~> $replace(\"-\", \"\")",
+      "to": "rekvisitus.cpr ~> $replace(\"-\", \"\")",
       "tot": "jsonata"
     }
   ],

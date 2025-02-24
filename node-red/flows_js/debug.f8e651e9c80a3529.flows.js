@@ -3,7 +3,7 @@ const Node = {
   "type": "debug",
   "z": "c715449c21b1a61f",
   "g": "3c5129bfe50adfad",
-  "name": "stdout",
+  "name": "stdout (join mail)",
   "active": true,
   "tosidebar": true,
   "console": true,
@@ -12,8 +12,8 @@ const Node = {
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 1040,
-  "y": 880,
+  "x": 950,
+  "y": 900,
   "wires": []
 }
 

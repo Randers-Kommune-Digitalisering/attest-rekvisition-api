@@ -7,9 +7,9 @@ const Node = {
   "rules": [
     {
       "t": "set",
-      "p": "bestilling.rekvisitusNavn",
+      "p": "bestilling.rekvisitus",
       "pt": "msg",
-      "to": "rekvisitus.navn",
+      "to": "rekvisitus",
       "tot": "msg"
     }
   ],
@@ -18,8 +18,8 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 850,
-  "y": 1060,
+  "x": 840,
+  "y": 1080,
   "wires": [
     [
       "b474f11560c328eb",

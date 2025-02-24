@@ -11,7 +11,7 @@ const Node = {
   "template": "",
   "output": "str",
   "x": 300,
-  "y": 1780,
+  "y": 1820,
   "wires": [
     [
       "e7338a1d27de82bd"
@@ -36,8 +36,8 @@ VALUES
     "{{bestilling.rekvirentNavn}}",
     "{{bestilling.rekvirentDQ}}",
     "{{bestilling.rekvirentEmail}}",
-    "{{bestilling.rekvisitus}}",
-    "{{bestilling.rekvisitusNavn}}",
+    "{{bestilling.rekvisitus.cpr}}",
+    "{{bestilling.rekvisitus.navn}}",
      {{bestilling.attestType}},
      {{bestilling.attestSubType}},
      {{erAfvist}},

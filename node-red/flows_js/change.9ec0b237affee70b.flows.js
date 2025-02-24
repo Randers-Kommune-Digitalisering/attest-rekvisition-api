@@ -2,14 +2,21 @@ const Node = {
   "id": "9ec0b237affee70b",
   "type": "change",
   "z": "6268f9208c4f680c",
-  "name": "",
+  "name": "CPR request",
   "rules": [
     {
       "t": "set",
-      "p": "payload",
+      "p": "base_url",
       "pt": "msg",
-      "to": "",
-      "tot": "str"
+      "to": "CPR_SERVICE_URL",
+      "tot": "env"
+    },
+    {
+      "t": "set",
+      "p": "url",
+      "pt": "msg",
+      "to": "base_url & \"PersonBaseDataExtendedService/lookup/name/\" & rekvisitus.cpr",
+      "tot": "jsonata"
     }
   ],
   "action": "",
@@ -17,10 +24,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 220,
-  "y": 80,
+  "x": 430,
+  "y": 300,
   "wires": [
-    []
+    [
+      "5098836e252e02bb"
+    ]
   ]
 }
 
