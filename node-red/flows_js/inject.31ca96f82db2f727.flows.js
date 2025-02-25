@@ -14,7 +14,7 @@ const Node = {
   "once": false,
   "onceDelay": 0.1,
   "topic": "",
-  "payload": "{\"sagsbehandler\":\"Test rekvirent - DQ8932\",\"medarbejderCPR\":\"123456-7890\",\"attestType\":\"0, 2\",\"attestSubType\":[{\"attestType\":0,\"subType\":\"3\"},{\"attestType\":2,\"subType\":\"0\"}],\"samtykke\":\"true\"}",
+  "payload": "{\"sagsbehandler\":\"Test rekvirent - DQA8932\",\"medarbejderCPR\":\"123456-7890\",\"attestType\":\"0, 2\",\"attestSubType\":[{\"attestType\":0,\"subType\":\"3\"},{\"attestType\":2,\"subType\":\"0\"}],\"samtykke\":\"true\"}",
   "payloadType": "json",
   "x": 150,
   "y": 160,

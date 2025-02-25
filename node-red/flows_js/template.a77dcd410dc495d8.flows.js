@@ -20,7 +20,9 @@ const Node = {
 }
 
 Node.template = `
-Din bestilling af en eller flere attester på {{rekvisition.navn}} ({{rekvisition.cpr}}-XXXX) er modtaget, og vil blive behandlet hurtigst muligt.
+Hej {{bestilling.rekvirentNavn}},
+
+Din bestilling af en eller flere attester på {{bestilling.rekvisitus.navn}} ({{bestilling.rekvisitus.cpr}}-XXXX) er modtaget, og vil blive behandlet hurtigst muligt.
 
 Bestillingen har en maksimal behandlingstid på 19 dage.
 
