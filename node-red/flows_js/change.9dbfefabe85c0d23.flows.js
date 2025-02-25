@@ -2,7 +2,7 @@ const Node = {
   "id": "9dbfefabe85c0d23",
   "type": "change",
   "z": "6268f9208c4f680c",
-  "name": "AD oplysninger",
+  "name": "KC oplysninger",
   "rules": [
     {
       "t": "set",

@@ -20,7 +20,11 @@ const Node = {
 }
 
 Node.template = `
-Her er en advisering af modtagelse
+Din bestilling af en eller flere attester på {{rekvisition.navn}} ({{rekvisition.cpr}}-XXXX) er modtaget, og vil blive behandlet hurtigst muligt.
+
+Bestillingen har en maksimal behandlingstid på 19 dage.
+
+Kontakt Personale og HR hvis du har spørgsmål til bestillingen.
 `
 
 module.exports = Node;

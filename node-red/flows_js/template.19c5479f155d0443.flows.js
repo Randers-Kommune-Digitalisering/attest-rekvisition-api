@@ -20,7 +20,9 @@ const Node = {
 }
 
 Node.template = `
-Her er en afvisning
+Din bestilling af en eller flere attester på ({{rekvisition.cpr}}-XXXX) er blevet afvist pga. manglende rolle.
+
+Kontakt Personale og HR hvis du mener der er tale om en fejl.
 `
 
 module.exports = Node;

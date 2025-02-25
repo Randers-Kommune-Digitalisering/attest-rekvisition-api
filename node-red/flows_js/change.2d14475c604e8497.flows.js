@@ -7,10 +7,10 @@ const Node = {
   "rules": [
     {
       "t": "set",
-      "p": "rekvirentDQ",
+      "p": "rekvisitus.cpr",
       "pt": "msg",
-      "to": "bestilling.rekvirentDQ",
-      "tot": "msg"
+      "to": "(rekvisitus.cpr ~> $split(\"-\"))[0]",
+      "tot": "jsonata"
     },
     {
       "t": "set",
@@ -23,7 +23,7 @@ const Node = {
       "t": "set",
       "p": "mail.title",
       "pt": "msg",
-      "to": "Din bestilling af en attest er blevet afvist",
+      "to": "Din bestilling af attest er blevet afvist",
       "tot": "str"
     },
     {
