@@ -1,8 +1,7 @@
 const Node = {
-  "id": "3266c68369504fbe",
+  "id": "6e4b36132317fe4f",
   "type": "debug",
-  "z": "c715449c21b1a61f",
-  "g": "3c5129bfe50adfad",
+  "z": "d35ec07551c9897c",
   "name": "Request",
   "active": true,
   "tosidebar": true,
@@ -12,8 +11,8 @@ const Node = {
   "targetType": "full",
   "statusVal": "",
   "statusType": "auto",
-  "x": 740,
-  "y": 820,
+  "x": 600,
+  "y": 180,
   "wires": []
 }
 

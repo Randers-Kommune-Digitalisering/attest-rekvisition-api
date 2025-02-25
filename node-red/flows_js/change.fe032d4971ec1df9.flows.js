@@ -9,7 +9,14 @@ const Node = {
       "t": "set",
       "p": "bestilling",
       "pt": "msg",
-      "to": "{\t   \"rekvirentNavn\": (bestilling.sagsbehandler ~> $split(\"-\"))[0] ~> $trim(),\t   \"rekvirentDQ\": (bestilling.sagsbehandler ~> $split(\"-\"))[1] ~> $trim(),\t   \"rekvisitus\": { \"cpr\": bestilling.medarbejderCPR },\t   \"attestType\": $attestTypes := bestilling.attestType ~> $split(\",\") ~> $map($trim ~> $number),\t   \"attestSubType\": bestilling.attestSubType[attestType in $attestTypes] ~> | $ | { \"subType\": subType ~> $number } |\t}",
+      "to": "{\t   \"rekvirentNavn\": (bestilling.sagsbehandler ~> $split(\"-\"))[0] ~> $trim(),\t   \"rekvirentDQ\": (bestilling.sagsbehandler ~> $split(\"-\"))[1] ~> $trim(),\t   \"rekvisitus\": { \"cpr\": bestilling.medarbejderCPR },\t   \"attestType\": $attestTypes := bestilling.attestType ~> $split(\",\") ~> $map($trim ~> $number),\t   \"attestSubType\": bestilling.attestSubType\t}",
+      "tot": "jsonata"
+    },
+    {
+      "t": "set",
+      "p": "bestilling.attestSubType",
+      "pt": "msg",
+      "to": "bestilling.attestSubType[attestType in $$.bestilling.attestType]\t~> | $ | { \"subType\": subType ~> $number } |",
       "tot": "jsonata"
     }
   ],
