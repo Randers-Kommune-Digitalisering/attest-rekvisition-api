@@ -8,7 +8,7 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "bestilling.rekvirentEmail ~> $exists() ?\t{\t    \"message\": \"SD/CPR Navn hentning succesfuld\",\t    \"rekvisitus\": bestilling.rekvisitus.navn\t}\t:\t{\t    \"message\": \"Fejl ved SD/CPR navn hentning\",\t    \"error\": error,\t    \"statusCode\": statusCode = null ? payload.statusCode : statusCode\t}",
+  "complete": "bestilling.rekvisitus.navn ~> $exists() ?\t{\t    \"message\": \"CPR navn hentning succesfuld\",\t    \"rekvisitus\": bestilling.rekvisitus.navn\t}\t:\t{\t    \"message\": \"Fejl ved CPR navn hentning\",\t    \"error\": error,\t    \"statusCode\": statusCode = null ? payload.statusCode : statusCode\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
