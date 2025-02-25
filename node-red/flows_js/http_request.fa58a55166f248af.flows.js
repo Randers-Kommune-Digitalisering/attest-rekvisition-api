@@ -3,7 +3,7 @@ const Node = {
   "type": "http request",
   "z": "4d93234f3eda96ec",
   "name": "",
-  "method": "GET",
+  "method": "POST",
   "ret": "txt",
   "paytoqs": "ignore",
   "url": "",
