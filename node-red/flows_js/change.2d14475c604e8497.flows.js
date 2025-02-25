@@ -7,9 +7,9 @@ const Node = {
   "rules": [
     {
       "t": "set",
-      "p": "rekvisitus.cpr",
+      "p": "bestilling.rekvisitus.cpr",
       "pt": "msg",
-      "to": "(rekvisitus.cpr ~> $split(\"-\"))[0]",
+      "to": "(bestilling.rekvisitus.cpr ~> $split(\"-\"))[0]",
       "tot": "jsonata"
     },
     {
