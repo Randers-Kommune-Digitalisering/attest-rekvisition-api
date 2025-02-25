@@ -8,7 +8,7 @@ const Node = {
       "t": "set",
       "p": "rekvisitus.navn",
       "pt": "msg",
-      "to": "payload.result",
+      "to": "payload.personadresseringsnavn",
       "tot": "msg"
     }
   ],
