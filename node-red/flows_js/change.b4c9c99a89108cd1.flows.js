@@ -2,7 +2,6 @@ const Node = {
   "id": "b4c9c99a89108cd1",
   "type": "change",
   "z": "c715449c21b1a61f",
-  "d": true,
   "g": "d8880c2ab63ce3cd",
   "name": "set msg.payload",
   "rules": [
