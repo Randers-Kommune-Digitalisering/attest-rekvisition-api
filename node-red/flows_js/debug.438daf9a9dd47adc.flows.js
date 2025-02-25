@@ -4,7 +4,7 @@ const Node = {
   "z": "6268f9208c4f680c",
   "name": "CPR response",
   "active": true,
-  "tosidebar": false,
+  "tosidebar": true,
   "console": false,
   "tostatus": false,
   "complete": "payload",

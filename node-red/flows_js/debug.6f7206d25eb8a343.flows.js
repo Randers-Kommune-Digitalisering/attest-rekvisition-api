@@ -1,8 +1,8 @@
 const Node = {
-  "id": "ba018bc4487ff71d",
+  "id": "6f7206d25eb8a343",
   "type": "debug",
-  "z": "d35ec07551c9897c",
-  "name": "Response",
+  "z": "c715449c21b1a61f",
+  "name": "SD Data debug",
   "active": true,
   "tosidebar": true,
   "console": false,
@@ -11,8 +11,8 @@ const Node = {
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 780,
-  "y": 180,
+  "x": 660,
+  "y": 980,
   "wires": []
 }
 
