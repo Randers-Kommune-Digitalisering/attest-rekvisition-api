@@ -22,7 +22,7 @@ const Node = {
 Node.template = `
 Hej {{bestilling.rekvirentNavn}},
 
-Din bestilling af en eller flere attester på {{bestilling.rekvistus.cpr}}-XXXX er blevet afvist pga. manglende rolle.
+Din bestilling af en eller flere attester på {{bestilling.rekvisitusCpr}}-XXXX er blevet afvist pga. manglende rolle.
 
 Kontakt Personale og HR hvis du mener der er tale om en fejl.
 `
