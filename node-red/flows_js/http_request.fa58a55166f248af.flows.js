@@ -4,7 +4,7 @@ const Node = {
   "z": "4d93234f3eda96ec",
   "name": "",
   "method": "POST",
-  "ret": "txt",
+  "ret": "obj",
   "paytoqs": "ignore",
   "url": "",
   "tls": "",

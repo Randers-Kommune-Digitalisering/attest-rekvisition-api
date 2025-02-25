@@ -1,5 +1,5 @@
 const Node = {
-  "id": "6e4b36132317fe4f",
+  "id": "e964c551a6e0df24",
   "type": "debug",
   "z": "d35ec07551c9897c",
   "name": "Request",
@@ -7,8 +7,8 @@ const Node = {
   "tosidebar": true,
   "console": false,
   "tostatus": false,
-  "complete": "true",
-  "targetType": "full",
+  "complete": "{\t    \"headers\": msg.headers,\t    \"url\": msg.url,\t    \"body\": msg.payload\t}",
+  "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
   "x": 600,
