@@ -1,8 +1,9 @@
 const Node = {
-  "id": "a16f263788a68a8d",
+  "id": "dc90ea4df41547f4",
   "type": "debug",
-  "z": "c6de71541d12d2dd",
-  "name": "CPR Test",
+  "z": "c715449c21b1a61f",
+  "g": "eed7fa19c41629c7",
+  "name": "stdout (joined db)",
   "active": true,
   "tosidebar": true,
   "console": true,
@@ -11,8 +12,8 @@ const Node = {
   "targetType": "full",
   "statusVal": "",
   "statusType": "auto",
-  "x": 590,
-  "y": 120,
+  "x": 970,
+  "y": 1760,
   "wires": []
 }
 
