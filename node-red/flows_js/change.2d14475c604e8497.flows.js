@@ -2,7 +2,7 @@ const Node = {
   "id": "2d14475c604e8497",
   "type": "change",
   "z": "c715449c21b1a61f",
-  "g": "826ac4afb5a7dcfc",
+  "g": "eed7fa19c41629c7",
   "name": "Byg mail",
   "rules": [
     {
@@ -46,8 +46,8 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 520,
-  "y": 1500,
+  "x": 460,
+  "y": 2020,
   "wires": [
     [
       "19c5479f155d0443"

@@ -2,7 +2,7 @@ const Node = {
   "id": "6917dc4892b5235b",
   "type": "change",
   "z": "c715449c21b1a61f",
-  "g": "d8880c2ab63ce3cd",
+  "g": "eed7fa19c41629c7",
   "name": "join obj",
   "rules": [
     {
@@ -19,7 +19,7 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 920,
-  "y": 1860,
+  "y": 1800,
   "wires": [
     [
       "bc9b261c1e94e485"

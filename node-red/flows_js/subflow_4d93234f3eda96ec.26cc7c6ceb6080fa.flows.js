@@ -5,7 +5,9 @@ const Node = {
   "name": "",
   "x": 640,
   "y": 240,
-  "wires": []
+  "wires": [
+    []
+  ]
 }
 
 module.exports = Node;

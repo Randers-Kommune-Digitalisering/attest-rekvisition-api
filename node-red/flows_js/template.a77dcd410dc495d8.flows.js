@@ -2,7 +2,7 @@ const Node = {
   "id": "a77dcd410dc495d8",
   "type": "template",
   "z": "c715449c21b1a61f",
-  "g": "d8880c2ab63ce3cd",
+  "g": "eed7fa19c41629c7",
   "name": "Body",
   "field": "mail.body",
   "fieldType": "msg",
@@ -10,8 +10,8 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 550,
-  "y": 2000,
+  "x": 610,
+  "y": 1940,
   "wires": [
     [
       "d226d7864852a3f3"

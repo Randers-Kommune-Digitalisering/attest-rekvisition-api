@@ -2,7 +2,7 @@ const Node = {
   "id": "b4c9c99a89108cd1",
   "type": "change",
   "z": "c715449c21b1a61f",
-  "g": "d8880c2ab63ce3cd",
+  "g": "eed7fa19c41629c7",
   "name": "set msg.payload",
   "rules": [
     {
@@ -26,11 +26,10 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 200,
-  "y": 1700,
+  "y": 1640,
   "wires": [
     [
-      "6b31538eabfc45bc",
-      "1332f81372c96f04"
+      "6b31538eabfc45bc"
     ]
   ]
 }

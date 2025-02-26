@@ -15,7 +15,18 @@ const Node = {
       ]
     }
   ],
-  "out": [],
+  "out": [
+    {
+      "x": 560,
+      "y": 80,
+      "wires": [
+        {
+          "id": "fa58a55166f248af",
+          "port": 0
+        }
+      ]
+    }
+  ],
   "env": [],
   "meta": {},
   "color": "#DDAA99"

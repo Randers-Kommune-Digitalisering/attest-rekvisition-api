@@ -2,7 +2,7 @@ const Node = {
   "id": "bd3191f24c7a2057",
   "type": "template",
   "z": "c715449c21b1a61f",
-  "g": "d8880c2ab63ce3cd",
+  "g": "eed7fa19c41629c7",
   "name": "Forespørgsel ↓\\n Indsæt bestilling i tabel",
   "field": "sql",
   "fieldType": "msg",
@@ -11,7 +11,7 @@ const Node = {
   "template": "",
   "output": "str",
   "x": 300,
-  "y": 1860,
+  "y": 1800,
   "wires": [
     [
       "e7338a1d27de82bd"
@@ -20,7 +20,7 @@ const Node = {
 }
 
 Node.template = `
-INSERT INTO bestillinger (
+INSERT INTO {{tablename}} (
     rekvirentNavn,
     rekvirentDQ,
     rekvirentEmail,
