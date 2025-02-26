@@ -24,7 +24,7 @@ Node.template = `
    <soapenv:Body>
       <urn:UserRetrieval>
          <urn:InstitutionIdentifier>RG</urn:InstitutionIdentifier>
-         <urn:PersonCivilRegistrationIdentifier>{{rekvisitus.cpr}}</urn:PersonCivilRegistrationIdentifier>
+         <urn:PersonCivilRegistrationIdentifier>{{rekvisitus.cpr_sd}}</urn:PersonCivilRegistrationIdentifier>
          <urn:EffectiveDate>{{today}}</urn:EffectiveDate>
          <urn:StatusActiveIndicator>true</urn:StatusActiveIndicator>
       </urn:UserRetrieval>

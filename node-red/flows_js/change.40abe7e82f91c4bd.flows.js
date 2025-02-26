@@ -13,7 +13,7 @@ const Node = {
     },
     {
       "t": "set",
-      "p": "rekvisitus.cpr",
+      "p": "rekvisitus.cpr_sd",
       "pt": "msg",
       "to": "rekvisitus.cpr ~> $replace(\"-\", \"\")",
       "tot": "jsonata"
