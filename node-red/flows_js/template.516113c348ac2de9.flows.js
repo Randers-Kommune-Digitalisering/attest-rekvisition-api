@@ -4,7 +4,7 @@ const Node = {
   "z": "c715449c21b1a61f",
   "g": "eed7fa19c41629c7",
   "name": "Forespørgsel ↓\\n Opdater bestilling i tabel",
-  "field": "payload",
+  "field": "sql",
   "fieldType": "msg",
   "format": "handlebars",
   "syntax": "mustache",
@@ -14,7 +14,8 @@ const Node = {
   "y": 2180,
   "wires": [
     [
-      "c52f360190f59f28"
+      "c52f360190f59f28",
+      "81d3469142465111"
     ]
   ]
 }
