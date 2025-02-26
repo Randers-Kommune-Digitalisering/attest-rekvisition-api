@@ -26,8 +26,8 @@ SET
     erAdviseringAfsendt = {{erAdviseret}},
     adviseringAfsendt = {{{adviseretAt}}}
 WHERE 
-    cpr = {{bestilling.rekvisitus.cpr}}
-AND rekvirentDQ = {{bestilling.rekvirentDQ}}
+    cpr = '{{bestilling.rekvisitus.cpr}}'
+AND rekvirentDQ = '{{bestilling.rekvirentDQ}}'
 AND erAdviseringAfsendt = 0
 `
 
