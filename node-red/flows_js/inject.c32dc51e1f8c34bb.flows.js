@@ -8,6 +8,11 @@ const Node = {
       "p": "cpr",
       "v": "TEST_CPR",
       "vt": "env"
+    },
+    {
+      "p": "cpr",
+      "v": "1234567890",
+      "vt": "str"
     }
   ],
   "repeat": "",

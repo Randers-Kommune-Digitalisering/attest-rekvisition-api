@@ -8,7 +8,7 @@ const Node = {
       "t": "set",
       "p": "cpr2",
       "pt": "msg",
-      "to": "cpr ~> $replace(\"-\", \"\")",
+      "to": "(cpr ~> $substring(0, 6)) & \"-\" & (cpr ~> $substring(6, 10)) ",
       "tot": "jsonata"
     }
   ],
