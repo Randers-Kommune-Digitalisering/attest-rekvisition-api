@@ -1,18 +1,19 @@
 const Node = {
-  "id": "438daf9a9dd47adc",
+  "id": "1332f81372c96f04",
   "type": "debug",
-  "z": "6268f9208c4f680c",
-  "name": "CPR response",
+  "z": "c715449c21b1a61f",
+  "g": "d8880c2ab63ce3cd",
+  "name": "Test debug",
   "active": true,
-  "tosidebar": false,
+  "tosidebar": true,
   "console": false,
   "tostatus": false,
   "complete": "payload",
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 800,
-  "y": 340,
+  "x": 390,
+  "y": 1740,
   "wires": []
 }
 
