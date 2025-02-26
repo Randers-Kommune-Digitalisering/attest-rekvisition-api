@@ -1,7 +1,7 @@
 const Node = {
-  "id": "971a7ae6df987a48",
+  "id": "c715449c21b1a61f",
   "type": "tab",
-  "label": "Flow 1",
+  "label": "Modtag bestilling",
   "disabled": false,
   "info": "",
   "env": []
