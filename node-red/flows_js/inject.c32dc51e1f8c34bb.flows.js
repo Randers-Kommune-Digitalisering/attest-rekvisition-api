@@ -12,14 +12,14 @@ const Node = {
   ],
   "repeat": "",
   "crontab": "",
-  "once": true,
+  "once": false,
   "onceDelay": "5",
   "topic": "",
-  "x": 210,
+  "x": 150,
   "y": 2440,
   "wires": [
     [
-      "3f7376519f11bffd"
+      "875672e15b910122"
     ]
   ]
 }

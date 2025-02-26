@@ -9,11 +9,12 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 530,
+  "x": 550,
   "y": 2440,
   "wires": [
     [
-      "e7a8158b0f9bdc4c"
+      "e7a8158b0f9bdc4c",
+      "977ca975fa241d5f"
     ]
   ]
 }
@@ -22,7 +23,8 @@ Node.template = `
 DELETE FROM
     bestillinger
 WHERE 
-    cpr = '{{cpr}}'
+    cpr = '{{{cpr}}}'
+OR  cpr = '{{cpr2}}'
 `
 
 module.exports = Node;

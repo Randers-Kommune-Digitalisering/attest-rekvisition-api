@@ -1,15 +1,14 @@
 const Node = {
-  "id": "6917dc4892b5235b",
+  "id": "875672e15b910122",
   "type": "change",
   "z": "c715449c21b1a61f",
-  "g": "eed7fa19c41629c7",
-  "name": "join obj",
+  "name": "",
   "rules": [
     {
       "t": "set",
-      "p": "payload",
+      "p": "cpr2",
       "pt": "msg",
-      "to": "{\t    \"warningCount\": payload.warningCount ~> $sum(),\t    \"error\": payload.error ~> $merge()\t}",
+      "to": "cpr ~> $replace(\"-\", \"\")",
       "tot": "jsonata"
     }
   ],
@@ -18,11 +17,11 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 940,
-  "y": 1800,
+  "x": 330,
+  "y": 2440,
   "wires": [
     [
-      "bc9b261c1e94e485"
+      "3f7376519f11bffd"
     ]
   ]
 }
