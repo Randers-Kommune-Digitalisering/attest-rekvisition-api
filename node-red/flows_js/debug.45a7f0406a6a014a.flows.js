@@ -6,7 +6,7 @@ const Node = {
   "name": "stdout (db)",
   "active": false,
   "tosidebar": true,
-  "console": false,
+  "console": true,
   "tostatus": false,
   "complete": "{\t    \"message\": payload.warningCount > 0 ? \"Advarsel ved indsættelse af bestilling\" : \"Bestilling indsat i tabel\",\t    \"success\": error ~> $exists() ? false : true,\t    \"error\": error.message,\t    \"bestilling\": bestilling\t}",
   "targetType": "jsonata",
