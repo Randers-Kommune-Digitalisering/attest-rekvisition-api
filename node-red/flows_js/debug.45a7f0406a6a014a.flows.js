@@ -8,7 +8,7 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    \"message\": payload.warningCount > 0 ? \"Advarsel ved indsættelse af bestilling\" : \"Bestilling indsat i tabel\",\t    \"success\": error ~> $exists() ? false : true,\t    \"error\": error.message,\t    \"bestilling\": bestilling\t}",
+  "complete": "{\t    \"message\": payload.warningCount > 0 ? \"Advarsel ved indsættelse af bestilling\" : \"Bestilling indsat i tabel\",\t    \"success\": error ~> $exists() ? false : true,\t    \"error\": error.message,\t    \"bestilling\": bestilling ~> | $.rekvisitus | { \"cpr\": (cpr ~> $split(\"-\"))[0] & \"-XXXX\" } | \t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
