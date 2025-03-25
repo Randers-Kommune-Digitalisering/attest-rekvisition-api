@@ -6,6 +6,13 @@ const Node = {
   "rules": [
     {
       "t": "set",
+      "p": "payload",
+      "pt": "msg",
+      "to": "payload[0]",
+      "tot": "msg"
+    },
+    {
+      "t": "set",
       "p": "payload.erAfvist",
       "pt": "msg",
       "to": "dq in payload.brugerDQ = false ? 1 : 0",
