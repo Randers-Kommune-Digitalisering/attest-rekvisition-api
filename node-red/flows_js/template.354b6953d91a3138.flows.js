@@ -20,7 +20,13 @@ const Node = {
 }
 
 Node.template = `
-SELECT * FROM {{tablename}} WHERE brugerDQ = '{{dqUser}}' AND (rolle = '1' OR rolle = '2')
+SELECT
+    *
+FROM
+    {{tablename}}
+WHERE
+    UPPER(brugerDQ) LIKE UPPER('%{{dqUser}}%')
+AND (rolle = '1' OR rolle = '2');
 `
 
 module.exports = Node;
