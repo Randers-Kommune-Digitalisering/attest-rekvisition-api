@@ -9,7 +9,7 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 620,
+  "x": 600,
   "y": 100,
   "wires": [
     [
@@ -19,7 +19,7 @@ const Node = {
 }
 
 Node.template = `
-SELECT * FROM roller WHERE brugerDQ = '{{dq}}'
+SELECT * FROM roller WHERE UPPER(brugerDQ) LIKE UPPER('%{{dq}}%');
 `
 
 module.exports = Node;
