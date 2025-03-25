@@ -1,8 +1,7 @@
 const Node = {
-  "id": "354b6953d91a3138",
+  "id": "c8c2470ebf5cadc7",
   "type": "template",
-  "z": "c715449c21b1a61f",
-  "g": "826ac4afb5a7dcfc",
+  "z": "4882205932e440ad",
   "name": "Forespørgsel ↓\\n Hent rolle med DQ-nr.",
   "field": "sql",
   "fieldType": "msg",
@@ -10,11 +9,11 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 460,
-  "y": 1420,
+  "x": 620,
+  "y": 100,
   "wires": [
     [
-      "960f32705ff0e3b6"
+      "63aa68b5a39864f9"
     ]
   ]
 }
@@ -23,9 +22,9 @@ Node.template = `
 SELECT
     *
 FROM
-    {{tablename}}
+    roller
 WHERE
-    UPPER(brugerDQ) LIKE UPPER('%{{dqUser}}%')
+    UPPER(brugerDQ) LIKE UPPER('%{{dq}}%')
 AND (rolle = '1' OR rolle = '2');
 `
 

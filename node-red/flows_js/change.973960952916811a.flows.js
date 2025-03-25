@@ -1,15 +1,21 @@
 const Node = {
-  "id": "569db39392167833",
+  "id": "973960952916811a",
   "type": "change",
-  "z": "c715449c21b1a61f",
-  "g": "826ac4afb5a7dcfc",
+  "z": "4882205932e440ad",
   "name": "Afvist?",
   "rules": [
     {
       "t": "set",
-      "p": "erAfvist",
+      "p": "payload",
       "pt": "msg",
-      "to": "(dqUser ~> $uppercase()) in (payload.brugerDQ . ($~>$uppercase())) ? 0 : 1",
+      "to": "payload[0]",
+      "tot": "msg"
+    },
+    {
+      "t": "set",
+      "p": "payload.erAfvist",
+      "pt": "msg",
+      "to": "(dq ~> $uppercase()) in (payload.brugerDQ . ($~>$uppercase())) ? 0 : 1",
       "tot": "jsonata"
     },
     {
@@ -25,11 +31,11 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 890,
-  "y": 1420,
+  "x": 1130,
+  "y": 80,
   "wires": [
     [
-      "67cb39dc298442e6"
+      "3b2ef6dd9b410f47"
     ]
   ]
 }
