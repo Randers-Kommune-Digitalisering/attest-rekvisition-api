@@ -4,7 +4,7 @@ const Node = {
   "z": "6268f9208c4f680c",
   "name": "",
   "method": "GET",
-  "ret": "obj",
+  "ret": "txt",
   "paytoqs": "ignore",
   "url": "",
   "tls": "",
@@ -18,8 +18,7 @@ const Node = {
   "y": 300,
   "wires": [
     [
-      "438daf9a9dd47adc",
-      "bd0344e1afd5f264"
+      "49ee422e311e131f"
     ]
   ]
 }
