@@ -1,25 +1,25 @@
 const Node = {
-  "id": "bd7544f8ca7e758b",
+  "id": "217ec84ab6456843",
   "type": "template",
   "z": "4882205932e440ad",
-  "name": "Forespørgsel ↓\\n Hent tilladte DQ-numre",
-  "field": "sql",
+  "name": "",
+  "field": "payload",
   "fieldType": "msg",
-  "format": "sql",
+  "format": "handlebars",
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 380,
+  "x": 340,
   "y": 160,
   "wires": [
     [
-      "f7e51ccd8fb9026f"
+      "3b2ef6dd9b410f47"
     ]
   ]
 }
 
 Node.template = `
-SELECT * FROM roller
+Indsæt DQ-nummer i adressen efter "/dquser/", f.eks. <a href="/dquser/dq12345">/dquser/dq12345</a>
 `
 
 module.exports = Node;
