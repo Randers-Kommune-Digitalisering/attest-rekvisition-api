@@ -1,5 +1,5 @@
 const Node = {
-  "id": "c7fd48929788f956",
+  "id": "7b95aa352086870f",
   "type": "change",
   "z": "4882205932e440ad",
   "name": "",
@@ -8,7 +8,7 @@ const Node = {
       "t": "set",
       "p": "payload",
       "pt": "msg",
-      "to": "{\"error\": \"Der opstod en fejl\", \"message\": msg.error}",
+      "to": "payload @ $res . {\t    \"dq_nr\": $res.brugerDQ,\t    \"rolle\": $res.rolle,\t    \"kan_bestille\": ($res.rolle = '1' or $res.rolle = '2')\t}",
       "tot": "jsonata"
     }
   ],
@@ -18,10 +18,10 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 1100,
-  "y": 120,
+  "y": 80,
   "wires": [
     [
-      "57ec9d572fd9f2ab"
+      "3b2ef6dd9b410f47"
     ]
   ]
 }

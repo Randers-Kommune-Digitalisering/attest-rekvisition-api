@@ -25,7 +25,6 @@ FROM
     roller
 WHERE
     UPPER(brugerDQ) LIKE UPPER('%{{dq}}%')
-AND (rolle = '1' OR rolle = '2');
 `
 
 module.exports = Node;
