@@ -1,5 +1,5 @@
 const Node = {
-  "id": "7b95aa352086870f",
+  "id": "b0a29e207c71f693",
   "type": "change",
   "z": "4882205932e440ad",
   "name": "",
@@ -8,7 +8,7 @@ const Node = {
       "t": "set",
       "p": "payload",
       "pt": "msg",
-      "to": "payload @ $res . {\t    \"dq_nr\": $res.brugerDQ,\t    \"rolle\": $res.rolle,\t    \"kan_bestille\": ($res.rolle = '1' or $res.rolle = '2')\t}",
+      "to": "{\t    \"dq_nr\": payload.brugerDQ,\t    \"rolle\": payload.rolle,\t    \"kan_bestille\": (payload.rolle = '1' or payload.rolle = '2')\t}",
       "tot": "jsonata"
     }
   ],
@@ -17,11 +17,11 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 1100,
-  "y": 160,
+  "x": 1300,
+  "y": 80,
   "wires": [
     [
-      "3b2ef6dd9b410f47"
+      "d0ef4f546ad05ecc"
     ]
   ]
 }
