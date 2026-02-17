@@ -9,7 +9,7 @@ const Node = {
       "t": "set",
       "p": "erAfvist",
       "pt": "msg",
-      "to": "dqUser in payload.brugerDQ = false ? 1 : 0",
+      "to": "(dqUser ~> $uppercase()) in (payload.brugerDQ . ($~>$uppercase())) ? 0 : 1",
       "tot": "jsonata"
     },
     {

@@ -1,14 +1,14 @@
 const Node = {
-  "id": "bd0344e1afd5f264",
+  "id": "c93797ecd4ad8144",
   "type": "change",
-  "z": "6268f9208c4f680c",
+  "z": "4882205932e440ad",
   "name": "",
   "rules": [
     {
       "t": "set",
-      "p": "rekvisitus.navn",
+      "p": "dq",
       "pt": "msg",
-      "to": "payload.personadresseringsnavn",
+      "to": "req.params.dq",
       "tot": "msg"
     }
   ],
@@ -17,10 +17,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 1150,
-  "y": 260,
+  "x": 350,
+  "y": 100,
   "wires": [
-    []
+    [
+      "c8c2470ebf5cadc7"
+    ]
   ]
 }
 
